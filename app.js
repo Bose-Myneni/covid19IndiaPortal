@@ -206,7 +206,7 @@ app.get("/states/:stateId/stats/", authenticateToken, async (request, response) 
     response.send(finalOutput);
 });
 
-module.exports=app;
+
 
 
 module.exports = app;
